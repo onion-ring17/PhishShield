@@ -1,14 +1,14 @@
-# TrustLens (PhishShield)
+# PhishShield (TrustLens)
 
 **Check it before you trust it.**
 
-TrustLens is an explainable phishing detector delivered as the **PhishShield** Chrome side-panel extension. Instead of a bare "safe" or "dangerous" label, every verdict is backed by named evidence from a fine-tuned BERT model, a rule engine, offline URL forensics and the Gemini API.
+PhishShield is an explainable phishing detector delivered as a Chrome side-panel extension. Instead of a bare "safe" or "dangerous" label, every verdict is backed by named evidence from a fine-tuned BERT model, a rule engine, offline URL forensics and the Gemini API.
 
 ---
 
-## Why TrustLens?
+## Why PhishSheild?
 
-| A typical checker | TrustLens |
+| A typical checker | PhishShield |
 | --- | --- |
 | A bare "safe" or "dangerous" label | Every verdict backed by named evidence |
 | One black-box model decides alone | Model, rules and URL checks weigh in together |
@@ -19,7 +19,7 @@ TrustLens is an explainable phishing detector delivered as the **PhishShield** C
 
 - **Explainable verdicts:** a risk score, the evidence behind it and clear next steps.
 - **Hybrid detection:** three independent signals combined into one score.
-- **Read-only by design:** TrustLens only reads content. It never clicks, replies, presses buttons or opens links.
+- **Read-only by design:** PhishShield only reads content. It never clicks, replies, presses buttons or opens links.
 - **Gemini API explanations:** plain-language reasons in English, Hindi and Kannada. Gemini explains only the detected evidence and never says to click or reply.
 - **Private by default:** emails, phone numbers and long account numbers are masked before the LLM sees them. Nothing is stored unless the user opts in, and logs hold metadata only, never the message.
 - **Resilient:** retries, a backup model and offline explanation text, so the panel always returns something useful.
