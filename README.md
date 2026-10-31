@@ -113,13 +113,14 @@ To load the extension: open `chrome://extensions`, enable **Developer mode**, cl
 | Haider | PhishShield extension, side panel, risk meter and UX |
 | Arnav | FastAPI backend, Gemini integration, redaction and Supabase |
 
-## Roadmap
-
-- [ ] Wire the BERT model into `/analyze` so all three signals contribute
-- [ ] Calibrate scoring weights on labelled data
-- [ ] Grow brand coverage and Hindi/Kannada rules
-- [ ] Host and publish
-
 ## License
 
-Add a license for your project here (for example, MIT).
+MIT License
+
+Copyright (c) 2026 Haider Ghazanfar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
