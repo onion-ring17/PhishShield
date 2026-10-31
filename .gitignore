@@ -1,0 +1,6 @@
+.env
+venv/
+Scripts/
+__pycache__/
+*.pyc
+feedback.jsonl
