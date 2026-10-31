@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhishShield</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+
+<body>
+  <main class="app">
+
+    <header class="hero">
+      <div class="hero-top">
+        <h1>Check it before you trust it.</h1>
+        <img src="../assets/icons/phishshield-logo.png" alt="PhishShield" class="hero-logo">
+      </div>
+      <p>Paste a message or a link. PhishShield looks for signs that someone is pretending to be a person or company you know.</p>
+    </header>
+
+    <section class="check">
+      <label for="messageInput">Message</label>
+      <textarea id="messageInput" rows="5"
+        placeholder="Paste a message, or select text on any page and right-click it."></textarea>
+
+      <div id="urlSection" class="links hidden">
+        <div class="links-head">
+          <span>Links found</span>
+          <span id="urlCount"></span>
+        </div>
+        <div id="urlList" class="url-list"></div>
+      </div>
+
+      <button id="analyseBtn" class="primary" type="button">
+        <span>Check message</span>
+      </button>
+
+      <div id="errorMessage" class="error-message hidden" role="alert"></div>
+    </section>
+
+    <section id="resultSection" class="results hidden" data-risk="unknown" aria-live="polite">
+      <div class="verdict">
+        <p id="riskLevelLabel" class="verdict-label">Result</p>
+        <p class="score"><span id="riskScore">--</span><small>/100</small></p>
+        <div class="risk-track"><div id="scoreFill" class="risk-fill"></div></div>
+        <p id="riskSummary" class="summary"></p>
+      </div>
+
+      <div class="block">
+        <h2>What we found</h2>
+        <div id="findingsList" class="rows"></div>
+      </div>
+
+      <div class="block">
+        <h2>What to do</h2>
+        <div id="recommendationsList" class="rows"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
